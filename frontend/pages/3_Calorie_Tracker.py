@@ -5,7 +5,7 @@ from components.sidebar import render_sidebar
 
 st.set_page_config(page_title="Calorie Tracker", page_icon="📊", layout="wide")
 
-API_BASE_URL = "http://localhost:8000"
+from config import API_BASE_URL
 
 render_sidebar(API_BASE_URL)
 

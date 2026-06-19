@@ -6,7 +6,7 @@ from components.sidebar import render_sidebar
 # Configure page
 st.set_page_config(page_title="NutriPlan Dashboard", page_icon="🥗", layout="wide")
 
-API_BASE_URL = "http://localhost:8000"
+from config import API_BASE_URL
 
 render_sidebar(API_BASE_URL)
 
