@@ -1,0 +1,40 @@
+name: Deploy FastAPI Backend
+
+# This tells GitHub to only run the pipeline when code is pushed to the main branch
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'backend/**' # Only triggers if files in the backend folder change
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.14.4' # Ensure this matches your local Python version
+
+      - name: Install Dependencies and Create Zip
+        run: |
+          cd backend
+          pip install -r requirements.txt -t .
+          zip -r9 ../deployment_package.zip .
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1 # Change this if your Lambda is in a different region
+
+      - name: Deploy to AWS Lambda
+        run: |
+          aws lambda update-function-code \
+            --function-name NutriPlan-backend \
+            --zip-file fileb://deployment_package.zip
