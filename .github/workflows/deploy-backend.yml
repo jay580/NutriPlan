@@ -20,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' # Use stable Python 3.11
+          python-version: '3.14' # Use stable Python 3.11
 
       - name: Install Dependencies and Create Zip
         run: |
@@ -29,7 +29,7 @@ jobs:
             --platform manylinux2014_x86_64 \
             --target=./ \
             --implementation cp \
-            --python-version 3.9 \
+            --python-version 3.14 \
             --only-binary=:all: \
             --upgrade \
             -r requirements-backend.txt -t package/
