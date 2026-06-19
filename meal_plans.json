@@ -1,0 +1,51 @@
+{
+  "weight_gain_muscle": [
+    "Breakfast: High Protein Oats + Whole Milk + Banana + Walnuts",
+    "Mid-Morning Snack: 2 slices Whole Wheat Bread + 2 tbsp Peanut Butter",
+    "Lunch: White Rice + Toor Dal + Chicken Breast / Soya Chunks + 1 tbsp Ghee",
+    "Evening Snack: Whey Protein Isolate + Apple",
+    "Dinner: 3 Chapati + Paneer / Chicken Curry + Mixed Vegetable Sabji + Curd"
+  ],
+  "weight_loss": [
+    "Breakfast: 2 Moong Dal Chillas + Greek Yogurt + Spinach",
+    "Mid-Morning Snack: Apple + 10 Almonds",
+    "Lunch: Quinoa / Brown Rice + Toor Dal + Mixed Vegetable Sabji + Cucumber Salad",
+    "Evening Snack: 1/2 cup Roasted Chana + Green Tea",
+    "Dinner: Grilled Firm Tofu / Chicken Breast + Sautéed Broccoli and Tomato"
+  ],
+  "maintenance": [
+    "Breakfast: Poha / Upma + Soy Milk + Almonds",
+    "Mid-Morning Snack: Banana + Handful of Peanuts",
+    "Lunch: White Rice + Rajma + Mixed Vegetable Sabji + Curd",
+    "Evening Snack: Sweet Potato Chaat",
+    "Dinner: 2 Chapati + Paneer + Mixed Salad"
+  ],
+  "vegan": [
+    "Breakfast: High Protein Oats + Soy Milk + Chia Seeds + Banana",
+    "Mid-Morning Snack: Apple + Walnuts",
+    "Lunch: Brown Rice + Chole (Chickpeas) + Sautéed Spinach",
+    "Evening Snack: 1/2 cup Soya Chunks pan-fried with Onion and Tomato",
+    "Dinner: 2 Chapati + Firm Tofu Curry + Mixed Vegetable Sabji"
+  ],
+  "vegetarian": [
+    "Breakfast: 1 cup Muesli + Whole Milk + Greek Yogurt",
+    "Mid-Morning Snack: 2 slices Whole Wheat Bread + 1 Processed Cheese Cube",
+    "Lunch: White Rice + Toor Dal + Paneer Sabji + 1 tbsp Ghee",
+    "Evening Snack: 1/2 cup Roasted Chana + Milk",
+    "Dinner: 3 Chapati + Mixed Vegetable Sabji + 1/2 cup Curd"
+  ],
+  "eggetarian": [
+    "Breakfast: 2 Whole Eggs + 3 Egg Whites (Scrambled with Onion & Tomato) + 2 slices Bread",
+    "Mid-Morning Snack: Banana + Almonds",
+    "Lunch: White Rice + Toor Dal + Mixed Vegetable Sabji + Curd",
+    "Evening Snack: Whey Protein Shake / Soy Milk",
+    "Dinner: 2 Chapati + Egg Curry (2 Eggs) + Cucumber Salad"
+  ],
+  "high_protein_low_carb": [
+    "Breakfast: 4 Egg Whites + 1 Whole Egg Omelet with Spinach and Cheese",
+    "Mid-Morning Snack: Greek Yogurt + Walnuts",
+    "Lunch: Grilled Chicken Breast / Firm Tofu + Steamed Broccoli + 1/4 cup Quinoa",
+    "Evening Snack: Whey Protein Isolate + Handful of Almonds",
+    "Dinner: Grilled White Fish / Paneer Tikka + Large Green Salad with Olive Oil"
+  ]
+}

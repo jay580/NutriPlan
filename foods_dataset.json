@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Eggs",
+    "category": "breakfast",
+    "diet": "eggetarian",
+    "serving": "2 large (100g)",
+    "calories": 143,
+    "protein": 13,
+    "carbs": 1,
+    "fat": 10
+  },
+  {
+    "name": "Egg Whites",
+    "category": "breakfast",
+    "diet": "eggetarian",
+    "serving": "3 large whites (100g)",
+    "calories": 52,
+    "protein": 11,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "name": "Oats",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1/2 cup dry (40g)",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 2.5
+  },
+  {
+    "name": "High Protein Oats",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1/2 cup dry (50g)",
+    "calories": 190,
+    "protein": 12,
+    "carbs": 25,
+    "fat": 4
+  },
+  {
+    "name": "Muesli",
+    "category": "breakfast",
+    "diet": "vegetarian",
+    "serving": "1/2 cup (50g)",
+    "calories": 185,
+    "protein": 6,
+    "carbs": 33,
+    "fat": 3.5
+  },
+  {
+    "name": "Greek Yogurt",
+    "category": "breakfast",
+    "diet": "vegetarian",
+    "serving": "1/2 cup (115g)",
+    "calories": 67,
+    "protein": 11,
+    "carbs": 4,
+    "fat": 0.5
+  },
+  {
+    "name": "Curd (Whole Milk)",
+    "category": "lunch",
+    "diet": "vegetarian",
+    "serving": "1 cup (245g)",
+    "calories": 150,
+    "protein": 8.5,
+    "carbs": 11.5,
+    "fat": 8
+  },
+  {
+    "name": "Milk (Cow, Whole)",
+    "category": "breakfast",
+    "diet": "vegetarian",
+    "serving": "1 cup (240ml)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "name": "Soy Milk (Unsweetened)",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 cup (240ml)",
+    "calories": 80,
+    "protein": 7,
+    "carbs": 4,
+    "fat": 4
+  },
+  {
+    "name": "Peanut Butter",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "2 tbsp (32g)",
+    "calories": 188,
+    "protein": 8,
+    "carbs": 6,
+    "fat": 16
+  },
+  {
+    "name": "Banana",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 medium (118g)",
+    "calories": 105,
+    "protein": 1.3,
+    "carbs": 27,
+    "fat": 0.4
+  },
+  {
+    "name": "Apple",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 medium (182g)",
+    "calories": 95,
+    "protein": 0.5,
+    "carbs": 25,
+    "fat": 0.3
+  },
+  {
+    "name": "Almonds",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 oz (28g)",
+    "calories": 164,
+    "protein": 6,
+    "carbs": 6,
+    "fat": 14
+  },
+  {
+    "name": "Walnuts",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 oz (28g)",
+    "calories": 185,
+    "protein": 4.3,
+    "carbs": 3.9,
+    "fat": 18.5
+  },
+  {
+    "name": "Roasted Chana",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1/2 cup (50g)",
+    "calories": 180,
+    "protein": 10,
+    "carbs": 30,
+    "fat": 3
+  },
+  {
+    "name": "Moong Sprouts",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 cup (104g)",
+    "calories": 31,
+    "protein": 3.2,
+    "carbs": 6.2,
+    "fat": 0.2
+  },
+  {
+    "name": "Soya Chunks",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1/2 cup dry (50g)",
+    "calories": 173,
+    "protein": 26,
+    "carbs": 17,
+    "fat": 0.5
+  },
+  {
+    "name": "Firm Tofu",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1/2 block (120g)",
+    "calories": 173,
+    "protein": 19,
+    "carbs": 3.5,
+    "fat": 11
+  },
+  {
+    "name": "Paneer",
+    "category": "lunch",
+    "diet": "vegetarian",
+    "serving": "100g",
+    "calories": 265,
+    "protein": 18,
+    "carbs": 4,
+    "fat": 20
+  },
+  {
+    "name": "Chicken Breast (Raw)",
+    "category": "lunch",
+    "diet": "nonveg",
+    "serving": "100g",
+    "calories": 120,
+    "protein": 22.5,
+    "carbs": 0,
+    "fat": 2.6
+  },
+  {
+    "name": "White Fish (Tilapia/Cod)",
+    "category": "lunch",
+    "diet": "nonveg",
+    "serving": "100g",
+    "calories": 96,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 1.7
+  },
+  {
+    "name": "Brown Rice",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1/2 cup dry (95g)",
+    "calories": 350,
+    "protein": 7,
+    "carbs": 74,
+    "fat": 2.5
+  },
+  {
+    "name": "White Rice",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1/2 cup dry (95g)",
+    "calories": 340,
+    "protein": 6,
+    "carbs": 75,
+    "fat": 0.5
+  },
+  {
+    "name": "Chapati/Roti",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1 medium (40g)",
+    "calories": 120,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 1.5
+  },
+  {
+    "name": "Toor Dal (Cooked)",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1 cup (240g)",
+    "calories": 198,
+    "protein": 12,
+    "carbs": 30,
+    "fat": 3
+  },
+  {
+    "name": "Rajma (Kidney Beans, Cooked)",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1 cup (177g)",
+    "calories": 225,
+    "protein": 15.3,
+    "carbs": 40.3,
+    "fat": 0.9
+  },
+  {
+    "name": "Chole (Chickpeas, Cooked)",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1 cup (164g)",
+    "calories": 269,
+    "protein": 14.5,
+    "carbs": 45,
+    "fat": 4.2
+  },
+  {
+    "name": "Mixed Vegetable Sabji",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1 cup (150g)",
+    "calories": 120,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 5
+  },
+  {
+    "name": "Sweet Potato",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 medium (130g)",
+    "calories": 112,
+    "protein": 2,
+    "carbs": 26,
+    "fat": 0.1
+  },
+  {
+    "name": "Quinoa",
+    "category": "lunch",
+    "diet": "vegan",
+    "serving": "1/4 cup dry (43g)",
+    "calories": 156,
+    "protein": 6,
+    "carbs": 27,
+    "fat": 2.5
+  },
+  {
+    "name": "Moong Dal Chilla",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 medium (60g batter)",
+    "calories": 110,
+    "protein": 7,
+    "carbs": 14,
+    "fat": 2.5
+  },
+  {
+    "name": "Besan Chilla",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 medium (60g batter)",
+    "calories": 120,
+    "protein": 6,
+    "carbs": 15,
+    "fat": 3.5
+  },
+  {
+    "name": "Idli",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "2 medium (120g)",
+    "calories": 116,
+    "protein": 3.2,
+    "carbs": 24,
+    "fat": 0.5
+  },
+  {
+    "name": "Plain Dosa",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 medium (85g)",
+    "calories": 133,
+    "protein": 3,
+    "carbs": 23,
+    "fat": 3
+  },
+  {
+    "name": "Upma",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 cup (150g)",
+    "calories": 220,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 4
+  },
+  {
+    "name": "Poha",
+    "category": "breakfast",
+    "diet": "vegan",
+    "serving": "1 cup (150g)",
+    "calories": 250,
+    "protein": 5,
+    "carbs": 46,
+    "fat": 5
+  },
+  {
+    "name": "Whey Protein Isolate",
+    "category": "snack",
+    "diet": "vegetarian",
+    "serving": "1 scoop (30g)",
+    "calories": 110,
+    "protein": 25,
+    "carbs": 2,
+    "fat": 0.5
+  },
+  {
+    "name": "Salted Peanuts",
+    "category": "snack",
+    "diet": "vegan",
+    "serving": "1 oz (28g)",
+    "calories": 170,
+    "protein": 7,
+    "carbs": 5,
+    "fat": 14
+  },
+  {
+    "name": "Butter",
+    "category": "ingredient",
+    "diet": "vegetarian",
+    "serving": "1 tbsp (14g)",
+    "calories": 100,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "name": "Ghee (Clarified Butter)",
+    "category": "ingredient",
+    "diet": "vegetarian",
+    "serving": "1 tbsp (15g)",
+    "calories": 135,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 15
+  },
+  {
+    "name": "Olive Oil",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 tbsp (15ml)",
+    "calories": 119,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 13.5
+  },
+  {
+    "name": "Cheddar Cheese",
+    "category": "ingredient",
+    "diet": "vegetarian",
+    "serving": "1 slice (28g)",
+    "calories": 113,
+    "protein": 7,
+    "carbs": 1,
+    "fat": 9
+  },
+  {
+    "name": "Processed Cheese Cube",
+    "category": "ingredient",
+    "diet": "vegetarian",
+    "serving": "1 cube (25g)",
+    "calories": 80,
+    "protein": 5,
+    "carbs": 0.5,
+    "fat": 6.5
+  },
+  {
+    "name": "Onion",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 medium (110g)",
+    "calories": 44,
+    "protein": 1.2,
+    "carbs": 10,
+    "fat": 0.1
+  },
+  {
+    "name": "Tomato",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 medium (123g)",
+    "calories": 22,
+    "protein": 1,
+    "carbs": 5,
+    "fat": 0.2
+  },
+  {
+    "name": "Garlic",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 clove (3g)",
+    "calories": 4,
+    "protein": 0.2,
+    "carbs": 1,
+    "fat": 0
+  },
+  {
+    "name": "Potato",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 medium (213g)",
+    "calories": 163,
+    "protein": 4.3,
+    "carbs": 37,
+    "fat": 0.2
+  },
+  {
+    "name": "Spinach",
+    "category": "ingredient",
+    "diet": "vegan",
+    "serving": "1 cup raw (30g)",
+    "calories": 7,
+    "protein": 0.9,
+    "carbs": 1.1,
+    "fat": 0.1
+  }
+]
