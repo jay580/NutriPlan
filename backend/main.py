@@ -20,7 +20,7 @@ from backend.api.meal_planner import router as meal_planner_router
 from backend.api.calorie_tracker import router as calorie_tracker_router
 from backend.database import models
 
-from mangum import Mangum
+from mangum import mangum
 # Auto-create SQLite tables on startup
 Base.metadata.create_all(bind=engine)
 
@@ -30,7 +30,7 @@ app = FastAPI(
     version="2.0.0"
 )
 
-handler = Mangum(app)
+handler = mangum(app)
 
 # Configure CORS
 app.add_middleware(

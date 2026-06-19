@@ -7,8 +7,6 @@ on:
       - master
     paths:
       - 'backend/**' # Only triggers if files in the backend folder change
-      - '.github/workflows/deploy-backend.yml'
-      - 'requirements.txt'
 
 jobs:
   deploy:
@@ -20,16 +18,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11' # Use stable Python 3.11
+          python-version: '3.14.4' # Ensure this matches your local Python version
 
       - name: Install Dependencies and Create Zip
         run: |
-          mkdir package
-          pip install -r requirements.txt -t package/
-          cp -r backend package/
-          cp foods_dataset.json package/ || true
-          cp meal_plans.json package/ || true
-          cd package
+          cd backend
+          pip install -r requirements.txt -t .
           zip -r9 ../deployment_package.zip .
 
       - name: Configure AWS Credentials
