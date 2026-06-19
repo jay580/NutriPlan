@@ -46,6 +46,6 @@ jobs:
       - name: Tell Lambda to Pull from S3
         run: |
           aws lambda update-function-code \
-            --function-name NutriPlan-Backend \
+            --function-name NutriPlan-backend \
             --s3-bucket nutriplan-deployment-123 \
             --s3-key deployment_package.zip
