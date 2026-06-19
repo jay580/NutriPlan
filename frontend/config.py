@@ -1,8 +1,5 @@
 import os
 from dotenv import load_dotenv
-
-# Load environment variables (Streamlit automatically picks up .env from the working directory)
-load_dotenv()
-
-# Set default to localhost if not specified in environment
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+# Base URL for the backend API
+# Change this to your AWS EC2 public IP or API Gateway URL when deploying (e.g. "http://54.210.xx.xx:8000")
+API_BASE_URL = "https://pshivfb3itimxhwsfuxdxx6mxi0tpvyc.lambda-url.us-east-1.on.aws/"
