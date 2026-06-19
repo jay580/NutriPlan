@@ -24,13 +24,19 @@ jobs:
 
       - name: Install Dependencies and Create Zip
         run: |
-          mkdir package
-          pip install -r requirements-backend.txt -t package/
-          cp -r backend package/
-          cp foods_dataset.json package/ || true
-          cp meal_plans.json package/ || true
-          cd package
-          zip -r9 ../deployment_package.zip .
+          cd backend
+          
+          # Force pip to download Amazon Linux compatible binaries instead of Ubuntu ones
+          pip install \
+            --platform manylinux2014_x86_64 \
+            --target=./ \
+            --implementation cp \
+            --python-version 3.9 \
+            --only-binary=:all: \
+            --upgrade \
+            -r requirements-backend.txt
+            
+          zip -r9 deployment_package.zip .
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
