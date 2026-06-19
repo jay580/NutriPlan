@@ -1,7 +1,10 @@
+#checking workflow
+
 import streamlit as st
 import requests
 from datetime import date
 from components.sidebar import render_sidebar
+
 
 # Configure page
 st.set_page_config(page_title="NutriPlan Dashboard", page_icon="🥗", layout="wide")
