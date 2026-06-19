@@ -12,6 +12,13 @@ render_sidebar(API_BASE_URL)
 st.title("🍱 Meal Planner")
 st.markdown("Get meal plans tailored to your fitness goals and dietary preferences.")
 
+st.info(
+    "💡 **Note:** Because the Spoonacular API does not support traditional Indian meals well, this page is an ongoing "
+    "effort to provide custom-curated Indian recipes and database entries for nutrition tracking. While the number of "
+    "pre-loaded meals is currently small, we are constantly expanding this list!"
+)
+
+
 # Try to load active profile for auto-recommendation
 active_profile = None
 if "active_profile_id" in st.session_state:
