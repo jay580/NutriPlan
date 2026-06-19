@@ -6,5 +6,5 @@ pydantic
 requests
 python-dotenv
 pytest
-psycopg2-binary
 mangum
+pg8000
