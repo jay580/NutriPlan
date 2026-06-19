@@ -8,7 +8,7 @@ on:
     paths:
       - 'backend/**' # Only triggers if files in the backend folder change
       - '.github/workflows/deploy-backend.yml'
-      - 'requirements.txt'
+      - 'requirements-backend.txt'
 
 jobs:
   deploy:
@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies and Create Zip
         run: |
           mkdir package
-          pip install -r requirements.txt -t package/
+          pip install -r requirements-backend.txt -t package/
           cp -r backend package/
           cp foods_dataset.json package/ || true
           cp meal_plans.json package/ || true
