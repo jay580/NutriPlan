@@ -41,11 +41,11 @@ jobs:
 
       - name: Upload Zip to S3 Staging
         run: |
-          aws s3 cp deployment_package.zip s3://nutriplan-deployment-123/deployment_package.zip
+          aws s3 cp deployment_package.zip s3://nutriplan-deployment/deployment_package.zip
 
       - name: Tell Lambda to Pull from S3
         run: |
           aws lambda update-function-code \
             --function-name NutriPlan-backend \
-            --s3-bucket nutriplan-deployment-123 \
+            --s3-bucket nutriplan-deployment \
             --s3-key deployment_package.zip
