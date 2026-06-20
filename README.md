@@ -10,10 +10,17 @@ NutriPlan is built using a decoupled architecture, optimized for scalability, lo
 
 ```mermaid
 graph TD
-    A[Streamlit Frontend - Hosted on AWS EC2] -->|HTTP Requests| B[FastAPI Backend - Serverless AWS Lambda]
-    B -->|API Gateway / Lambda Function URL| C(Database Router)
-    C -->|PostgreSQL Driver: pg8000| D[AWS RDS PostgreSQL Database]
-    B -->|Spoonacular API| E[External Nutrition Service]
+    A["GitHub repo<br>Push to master branch"] --> B["Backend workflow<br>deploy-backend.yml"]
+    A --> C["Frontend workflow<br>deploy-frontend.yml"]
+    
+    B -->|"Zip + upload"| D["S3 staging bucket<br>nutriplan-deployment"]
+    C -->|"SSH + git pull"| E["EC2 instance (frontend)<br>Streamlit, systemd service"]
+    
+    D -->|"Lambda pulls code"| F["Lambda backend<br>FastAPI via Mangum"]
+    E -->|"HTTP via Lambda function URL"| F
+    
+    F -->|"SQLAlchemy queries"| G["RDS PostgreSQL<br>pg8000 + SQLAlchemy ORM"]
+    F -->|"REST API call"| H["Spoonacular API<br>External nutrition data"]
 ```
 
 *   **Frontend:** Built with [Streamlit](https://streamlit.io/) and hosted on an **AWS EC2** instance, utilizing vanilla styling for a clean, user-friendly interface.
